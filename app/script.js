@@ -1,8 +1,20 @@
-let types = ["push", "pull", "squat", "core", "bridge", "twist", "climbing", "bike", "plank"]
+let types = ["push", "pull", "squat", "core", "bridge", "twist", "climbing", "bike", "plank", "stretch"]
+let currdate = Date.now()
+let workoutObj = {
+    currDate: currdate,
+    arr: []
+}
 
 document.body.onload = () => {
+
+    let btnSubmit = document.getElementById('btnSubmit')
+    let btnAdd = document.getElementById('btnAdd')
+    let btnClear = document.getElementById('btnClear')
+
     fillSelect()
-    document.getElementById('btnSubmit').addEventListener("click", handleClick)
+    btnSubmit.addEventListener("click", handleSubmit)
+    btnAdd.addEventListener("click", handleAdd)
+    btnClear.addEventListener("click", handleClear)
 }
 
 const fillSelect = () => {
@@ -17,30 +29,45 @@ const fillSelect = () => {
     })
 }
 
-const handleClick = () => {
+const handleAdd = () => {
     let type = document.getElementById("selType").value
     let progression = document.getElementById("tbProgression").value
     let repstime = document.getElementById("tbRepsTime").value
-    let currentdate = Date.now();
 
-    let workoutObj = {
-        "type": type,
-        "progression": progression,
-        "repstime": repstime,
-        "currDate": currentdate
+    let exerciseObj = {
+        type: type,
+        progression: parseInt(progression),
+        repstime: parseInt(repstime)
     }
 
-    const body = JSON.stringify(workoutObj)
-    const headers = { "Content-Type": "application/json" }
-    // console.log(body)
+    workoutObj.arr.push(exerciseObj)
 
-    let wynik = fetch("/handleUpload", { method: 'post', body, headers })
-        .then(data => {
-            response = data.text()
-            console.log("DATA: ", data);
-            console.log("RESPONSE: ", response);
-            return response
-        })
+    let lblExerciseArr = document.getElementById("lblExerciseArr")
+    lblExerciseArr.innerHTML = JSON.stringify(workoutObj, null, "\t")
+}
+
+const handleSubmit = () => {
+    if(workoutObj.arr.length > 0) {
+        const body = JSON.stringify(workoutObj)
+        const headers = { "Content-Type": "application/json" }
     
-    console.log(wynik)
+        let wynik = fetch("/handleUpload", { method: 'post', body, headers })
+            .then(data => {
+                response = data.text()
+                console.log("DATA: ", data);
+                console.log("RESPONSE: ", response);
+                return response
+            })
+    
+        console.log(wynik)
+    }
+}
+
+const handleClear = () => {
+    workoutObj = {
+        currDate: currdate,
+        arr: []
+    }
+
+    document.getElementById("lblExerciseArr").innerHTML = ""
 }

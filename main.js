@@ -21,10 +21,15 @@ const server = http.createServer((req, res) => {
             logger.info("GET /style.css")
             res.writeHead(200, { 'Content-Type': 'text/css' })
         }
+        else if (req.url == "/tracker.json") {
+            mainpage = fs.readFileSync('./tracker.json')
+            logger.info("GET /style.css")
+            res.writeHead(200, { 'Content-Type': 'text/css' })
+        }
         res.end(mainpage)
     }
     else if (req.method == "POST") {
-        if(req.url == "/handleUpload"){
+        if (req.url == "/handleUpload") {
             let body = ''
             req.on("data", (data) => {
                 body += data
@@ -35,13 +40,24 @@ const server = http.createServer((req, res) => {
                     let post = JSON.parse(body)
                     console.log("RECIVED: ", body)
 
-                    res.writeHead(200, {"Content-Type": "text/plain"})
+                    res.writeHead(200, { "Content-Type": "text/plain" })
                     res.end("ADDED EXERCISE SUCCESSFULLY!")
+
+                    let tracker = JSON.parse(fs.readFileSync("./tracker.json"))
+                    tracker.history.push(post)
+
+                    fs.writeFileSync("./tracker.json", JSON.stringify(tracker, null, 4), "utf-8")
+                    
+                    
+                    // console.log("BODY1: ", body)
+                    // console.log("TRACKER1: ", tracker)
+                    // console.log("TRACKER2: ", JSON.stringify(tracker, null, 4))
+                    // console.log("TEST1: ", JSON.stringify(tracker, null, 4).replace("\\", ""))
                     return
                 }
                 catch (err) {
                     console.log("tu: ", err)
-                    res.writeHead(500, {"Content-Type": "text/plain"})
+                    res.writeHead(500, { "Content-Type": "text/plain" })
                     res.write("Bad Post Data.  Is your data a proper JSON?\n")
                     res.end()
                     return

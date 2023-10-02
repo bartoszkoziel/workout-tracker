@@ -1,0 +1,44 @@
+{
+    "history": [
+        {
+            "currDate": 1696279781065,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 20
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 10
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 20
+                },
+                {
+                    "type": "squat",
+                    "progression": 6,
+                    "repstime": 10
+                },
+                {
+                    "type": "squat",
+                    "progression": 6,
+                    "repstime": 10
+                }
+            ]
+        },
+        {
+            "currDate": 1696280075611,
+            "arr": [
+                {
+                    "type": "stretch",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        }
+    ]
+}
