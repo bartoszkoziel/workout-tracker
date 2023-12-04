@@ -16,6 +16,11 @@ const server = http.createServer((req, res) => {
             logger.info("GET /script.js")
             res.writeHead(200, { 'Content-Type': 'text/javascript' })
         }
+        else if (req.url == "/calendar.js") {
+            mainpage = fs.readFileSync('./app/calendar.js')
+            logger.info("GET /calendar.js")
+            res.writeHead(200, { 'Content-Type': 'text/javascript' })
+        }
         else if (req.url == "/style.css") {
             mainpage = fs.readFileSync('./app/style.css')
             logger.info("GET /style.css")
@@ -23,8 +28,18 @@ const server = http.createServer((req, res) => {
         }
         else if (req.url == "/tracker.json") {
             mainpage = fs.readFileSync('./tracker.json')
-            logger.info("GET /style.css")
+            logger.info("GET /tracker.json")
             res.writeHead(200, { 'Content-Type': 'text/css' })
+        }
+        else if (req.url == "/calendar.html") {
+            mainpage = fs.readFileSync('./app/calendar.html')
+            logger.info("GET /calendar.html")
+            res.writeHead(200, { 'Content-Type': 'text/html' })
+        }
+        else if (req.url == "/calendar.ics") {
+            mainpage = fs.readFileSync('./app/calendar.ics')
+            logger.info("GET /calendar.ics")
+            res.writeHead(200, { 'Content-Type': 'text/plain' })
         }
         res.end(mainpage)
     }
@@ -48,11 +63,6 @@ const server = http.createServer((req, res) => {
 
                     fs.writeFileSync("./tracker.json", JSON.stringify(tracker, null, 4), "utf-8")
                     
-                    
-                    // console.log("BODY1: ", body)
-                    // console.log("TRACKER1: ", tracker)
-                    // console.log("TRACKER2: ", JSON.stringify(tracker, null, 4))
-                    // console.log("TEST1: ", JSON.stringify(tracker, null, 4).replace("\\", ""))
                     return
                 }
                 catch (err) {
@@ -70,3 +80,7 @@ const server = http.createServer((req, res) => {
 server.listen(3000, () => {
     console.log("running on port 3000")
 })
+
+const genIcs = (body) => {
+
+}
