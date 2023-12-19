@@ -11,3 +11,17 @@ body{
 #lblExerciseArr {
     white-space: pre;
 }
+#calendar {
+    height: 105px; /* 7  x 15 */
+    width: 898px; /* 52 x 15 */
+    display: flex;
+}
+#cell {
+    flex: 1;
+    width: 15px;
+    height: 15px;
+    margin: 1px;
+    background-color: aqua;
+    border-radius: 30%;
+    float: left;
+}
