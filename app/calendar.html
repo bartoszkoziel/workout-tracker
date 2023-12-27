@@ -10,15 +10,18 @@
 </head>
 
 <body>
+    <h1>THIS YEAR CALENDAR</h1>
     <div id="calendar">
         <script defer>
             let calendar = document.getElementById("calendar")
-            for (let i = 0; i < 364; i++) {
-                let cell = document.createElement("div")
-                cell.id = "cell"
-                calendar.append(cell)
+            for (let i = 0; i < 52; i++) {
+                let week = document.createElement("div")
+                week.className = "week"
+                week.id = i + 1
+                calendar.append(week)
             }
         </script>
     </div>
+    <script src="./calendar.js" defer></script>
 </body>
 </html>

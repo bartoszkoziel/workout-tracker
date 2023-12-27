@@ -15,13 +15,17 @@ body{
     height: 105px; /* 7  x 15 */
     width: 898px; /* 52 x 15 */
     display: flex;
+    flex-direction: row;
 }
-#cell {
-    flex: 1;
+.week {
+    display: flex;
     width: 15px;
-    height: 15px;
+    height: 105px;
     margin: 1px;
-    background-color: aqua;
-    border-radius: 30%;
-    float: left;
+    align-items: flex-end;
+    border-bottom: 1px solid rgb(0, 218, 0);
+}
+.filling {
+    width: 100%;
+    background-color: rgb(0, 218, 0);
 }
