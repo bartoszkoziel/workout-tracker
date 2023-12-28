@@ -1,19 +1,26 @@
 document.body.onload = async () => {
-  //   drawProgress(9, 1)
   let trackerObj = await fetchTracker()
+  trackerObj = trackerObj.history
   console.log(trackerObj)
+
+  trackerObj.forEach(async el => {
+    el.currDate = parseInt(el.currDate.toString().slice(0, -3))
+    let week = epochToWeek(el.currDate)
+    drawProgress(week)
+  })
 }
 
-function drawProgress (week, ph) {
+function drawProgress (week) {
   // 1672534800 -> 1.1.23
   // 1704063539 -> 31.12.23
   //   31528739 -> one year
   //     604800 -> one week
   week = document.getElementById(week)
   let filling = document.createElement('div')
+  // let currentHeight = parseInt(filling.style.height.slice(0, -2))
 
   filling.className = 'filling'
-  filling.style.height = ph * 15 + 'px'
+  filling.style.height += 15 + 'px'
 
   week.append(filling)
 }
@@ -48,7 +55,6 @@ async function fetchTracker () {
 
     // Parse the JSON data from the response
     return await response.json()
-
   } catch (error) {
     console.error('Error fetching data:', error.message)
   }

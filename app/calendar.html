@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Workout tracker</title>
     <link rel="stylesheet" type="text/css" href="/style.css" />
+  </head>
 
-</head>
-
-<body>
-    <h1>THIS YEAR CALENDAR</h1>
+  <body>
+    <h1>WEEKLY CALENDAR</h1>
+    <input type="number" id="tbYear" place>
+    <script>
+      let currentYear = new Date().getFullYear()
+      let tbYear = document.getElementById("tbYear")
+      tbYear.value = currentYear.toString()
+    </script>
     <div id="calendar">
-        <script defer>
-            let calendar = document.getElementById("calendar")
-            for (let i = 0; i < 52; i++) {
-                let week = document.createElement("div")
-                week.className = "week"
-                week.id = i + 1
-                calendar.append(week)
-            }
-        </script>
+      <script defer>
+        let calendar = document.getElementById('calendar')
+        for (let i = 0; i < 52; i++) {
+          let week = document.createElement('div')
+          week.className = 'week'
+          week.title = 'week ' + (i + 1)
+          week.id = i + 1
+          calendar.append(week)
+        }
+      </script>
     </div>
     <script src="./calendar.js" defer></script>
-</body>
+  </body>
 </html>

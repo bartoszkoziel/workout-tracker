@@ -1,31 +1,33 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'sans-serif';
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'sans-serif';
 }
-.container{
-    background-color: #EEEEEE;
-    padding: 1em;
+.container {
+  background-color: #eeeeee;
+  padding: 1em;
 }
 #lblExerciseArr {
-    white-space: pre;
+  white-space: pre;
 }
 #calendar {
-    height: 105px; /* 7  x 15 */
-    width: 898px; /* 52 x 15 */
-    display: flex;
-    flex-direction: row;
+  height: 105px; /* 7  x 15 */
+  width: 898px; /* 52 x 15 */
+  display: flex;
+  flex-direction: row;
 }
 .week {
-    display: flex;
-    width: 15px;
-    height: 105px;
-    margin: 1px;
-    align-items: flex-end;
-    border-bottom: 1px solid rgb(0, 218, 0);
+  display: flex;
+  width: 15px;
+  height: 105px;
+  margin: 1px;
+  align-items: flex-end;
+  justify-content: end;
+  border-bottom: 1px solid rgb(0, 218, 0);
+  flex-direction: column;
 }
 .filling {
-    width: 100%;
-    background-color: rgb(0, 218, 0);
+  width: 100%;
+  background-color: rgb(0, 218, 0);
 }
