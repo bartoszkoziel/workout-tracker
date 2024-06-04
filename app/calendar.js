@@ -16,6 +16,7 @@ function drawProgress(week) {
   week = document.getElementById(week)
   let filling = document.createElement('div')
 
+  
   filling.className = 'filling'
   filling.style.height += 15 + 'px'
 
