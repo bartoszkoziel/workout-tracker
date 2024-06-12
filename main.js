@@ -10,32 +10,51 @@ const server = http.createServer((req, res) => {
       mainpage = fs.readFileSync('./app/index.html')
       logger.info('GET /')
       res.writeHead(200, { 'Content-Type': 'text/html' })
+
     } else if (req.url == '/script.js') {
       mainpage = fs.readFileSync('./app/script.js')
       logger.info('GET /script.js')
       res.writeHead(200, { 'Content-Type': 'text/javascript' })
+
     } else if (req.url == '/calendar.js') {
       mainpage = fs.readFileSync('./app/calendar.js')
       logger.info('GET /calendar.js')
       res.writeHead(200, { 'Content-Type': 'text/javascript' })
+
     } else if (req.url == '/style.css') {
       mainpage = fs.readFileSync('./app/style.css')
       logger.info('GET /style.css')
       res.writeHead(200, { 'Content-Type': 'text/css' })
+
     } else if (req.url == '/tracker.json') {
       mainpage = fs.readFileSync('./tracker.json')
       logger.info('GET /tracker.json')
       res.writeHead(200, { 'Content-Type': 'text/css' })
+
     } else if (req.url == '/calendar.html') {
       mainpage = fs.readFileSync('./app/calendar.html')
       logger.info('GET /calendar.html')
       res.writeHead(200, { 'Content-Type': 'text/html' })
+
     } else if (req.url == '/calendar.ics') {
       mainpage = fs.readFileSync('./app/calendar.ics')
       logger.info('GET /calendar.ics')
       res.writeHead(200, { 'Content-Type': 'text/plain' })
+
+    }else if (req.url == '/lastwo'){
+      mainpage = fs.readFileSync('./lastworkout.txt')
+      if (mainpage == 2){
+        fs.writeFileSync('./lastworkout.txt', "0", 'utf-8');
+      } else if(mainpage == 1) {
+        fs.writeFileSync('./lastworkout.txt', "2", 'utf-8');
+      } else if (mainpage == 0){
+        fs.writeFileSync('./lastworkout.txt', "1", 'utf-8');
+      }
+      logger.info('GET /lastwo')
+      res.writeHead(200, { 'Content-Type': 'text/plain' })
     }
     res.end(mainpage)
+
   } else if (req.method == 'POST') {
     if (req.url == '/handleUpload') {
       let body = ''
@@ -77,4 +96,4 @@ server.listen(3000, () => {
   console.log('running on port 3000')
 })
 
-const genIcs = body => {}
+const genIcs = body => { }

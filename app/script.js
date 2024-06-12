@@ -1,14 +1,16 @@
 let types = [
   'push',
+  'core',
   'pull',
   'squat',
-  'core',
   'bridge',
   'twist',
   'climbing',
+  'basketball',
   'bike',
-  'plank',
   'stretch',
+  'plank',
+  'swimming',
   'ice skating'
 ]
 let currdate = Date.now()
@@ -21,11 +23,13 @@ document.body.onload = () => {
   let btnSubmit = document.getElementById('btnSubmit')
   let btnAdd = document.getElementById('btnAdd')
   let btnClear = document.getElementById('btnClear')
+  let btnNext = document.getElementById('btnNext')
 
   fillSelect()
   btnSubmit.addEventListener('click', handleSubmit)
   btnAdd.addEventListener('click', handleAdd)
   btnClear.addEventListener('click', handleClear)
+  btnNext.addEventListener('click', handleNext)
 }
 
 const fillSelect = () => {
@@ -82,4 +86,16 @@ const handleClear = () => {
   }
 
   document.getElementById('lblExerciseArr').innerHTML = ''
+}
+const handleNext = async () => {
+  let fetchlastwo = await fetch('/lastwo')
+  let lastwo = await fetchlastwo.text()
+
+  if(lastwo == 0) {
+    alert("PUSH + CORE")
+  } else if(lastwo == 1) {
+    alert("PULL + SQUAT")
+  }else {
+    alert("BRIDGE + TWIST")
+  }
 }
