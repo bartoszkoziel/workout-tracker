@@ -3,7 +3,7 @@ document.body.onload = async () => {
   document.getElementById("btnShow").addEventListener("click", todo)
 }
 
-function drawProgress(week) {
+function drawProgress(week, type) {
   // 1672534800 -> 1.1.23
   // 1704063539 -> 31.12.23
   //   31528739 -> one year
@@ -16,9 +16,12 @@ function drawProgress(week) {
   week = document.getElementById(week)
   let filling = document.createElement('div')
 
-  
-  filling.className = 'filling'
+
+  // filling.classList = ['filling', type]
+  filling.classList.add("filling")
+  filling.classList.add(type)
   filling.style.height += 15 + 'px'
+  filling.title = type
 
   week.append(filling)
 }
@@ -64,12 +67,36 @@ async function fetchTracker() {
 }
 
 async function todo() {
+  clear()
   let trackerObj = await fetchTracker()
   trackerObj = trackerObj.history
   console.log(trackerObj)
   trackerObj.forEach(async el => {
     el.currDate = parseInt(el.currDate.toString().slice(0, -3))
     let week = epochToWeek(el.currDate)
-    drawProgress(week)
+    let type = await typeUni(el.arr[0].type)
+    drawProgress(week, type)
   })
+}
+
+async function typeUni(type) {
+  let cali = ['push', 'core', 'pull', 'squat', 'bridge', 'twist', 'plank']
+  if (cali.includes(type)) {
+    return 'cali'
+  }
+
+  if (type == 'ice skating') {
+    return 'ice_skating'
+  }
+
+  return type
+}
+
+function clear() {
+  let calendar = document.getElementById('calendar')
+  for (let i = 0; i < 52; i++) {
+    let id = i + 1
+    let week = document.getElementById(id)
+    week.innerHTML = ""
+  }
 }

@@ -31,3 +31,19 @@ body {
   width: 100%;
   background-color: rgb(0, 218, 0);
 }
+
+.cali {
+  background-color: rgb(0, 218, 0);
+}
+
+.ice_skating {
+  background-color: #1793c4;
+}
+
+.climbing {
+  background-color: lightgray;
+}
+
+.basketball {
+  background-color: #df462b;
+}
