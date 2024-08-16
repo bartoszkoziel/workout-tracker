@@ -39,6 +39,2066 @@
                     "repstime": 0
                 }
             ]
+        },
+        {
+            "currDate": 1696365668668,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 20
+                },
+                {
+                    "type": "plank",
+                    "progression": 1,
+                    "repstime": 80
+                }
+            ]
+        },
+        {
+            "currDate": 1696442367258,
+            "arr": [
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 20
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 20
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 15
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 8
+                }
+            ]
+        },
+        {
+            "currDate": 1696621905451,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1696677683467,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 21
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "push",
+                    "progression": 6,
+                    "repstime": 10
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 30
+                },
+                {
+                    "type": "squat",
+                    "progression": 6,
+                    "repstime": 15
+                },
+                {
+                    "type": "squat",
+                    "progression": 6,
+                    "repstime": 15
+                }
+            ]
+        },
+        {
+            "currDate": 1696865311492,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 14
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 16
+                },
+                {
+                    "type": "squat",
+                    "progression": 6,
+                    "repstime": 20
+                },
+                {
+                    "type": "squat",
+                    "progression": 6,
+                    "repstime": 15
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 6
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 6
+                }
+            ]
+        },
+        {
+            "currDate": 1696949373559,
+            "arr": [
+                {
+                    "type": "pull",
+                    "progression": 3,
+                    "repstime": 10
+                },
+                {
+                    "type": "pull",
+                    "progression": 3,
+                    "repstime": 10
+                },
+                {
+                    "type": "pull",
+                    "progression": 3,
+                    "repstime": 10
+                },
+                {
+                    "type": "plank",
+                    "progression": 0,
+                    "repstime": 75
+                },
+                {
+                    "type": "plank",
+                    "progression": 0,
+                    "repstime": 90
+                }
+            ]
+        },
+        {
+            "currDate": 1697046192284,
+            "arr": [
+                {
+                    "type": "stretch",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1697139858369,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1697300560198,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 18
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 16
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 10
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 10
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 15
+                }
+            ]
+        },
+        {
+            "currDate": 1697385106557,
+            "arr": [
+                {
+                    "type": "core",
+                    "progression": 0,
+                    "repstime": 75
+                },
+                {
+                    "type": "core",
+                    "progression": 0,
+                    "repstime": 75
+                },
+                {
+                    "type": "stretch",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1697539523039,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 20
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 16
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 20
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 20
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 20
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 10
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 10
+                }
+            ]
+        },
+        {
+            "currDate": 1697726202361,
+            "arr": [
+                {
+                    "type": "plank",
+                    "progression": 0,
+                    "repstime": 75
+                },
+                {
+                    "type": "plank",
+                    "progression": 0,
+                    "repstime": 60
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 3
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 3
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 3
+                }
+            ]
+        },
+        {
+            "currDate": 1697887220879,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 25
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 17
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 60
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 15
+                }
+            ]
+        },
+        {
+            "currDate": 1697978697586,
+            "arr": [
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 6
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "plank",
+                    "progression": 0,
+                    "repstime": 120
+                }
+            ]
+        },
+        {
+            "currDate": 1698148070233,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": null,
+                    "repstime": null
+                }
+            ]
+        },
+        {
+            "currDate": 1698148070233,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": null,
+                    "repstime": null
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 19
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 19
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 12
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 40
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 40
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 40
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 10
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 10
+                }
+            ]
+        },
+        {
+            "currDate": 1698754154876,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1698752388543,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 20
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 10
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 20
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 20
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 10
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 10
+                }
+            ]
+        },
+        {
+            "currDate": 1698930873446,
+            "arr": [
+                {
+                    "type": "plank",
+                    "progression": 0,
+                    "repstime": 70
+                },
+                {
+                    "type": "plank",
+                    "progression": 0,
+                    "repstime": 85
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 4
+                }
+            ]
+        },
+        {
+            "currDate": 1699128580789,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1699284221902,
+            "arr": [
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 4
+                },
+                {
+                    "type": "plank",
+                    "progression": 0,
+                    "repstime": 90
+                },
+                {
+                    "type": "plank",
+                    "progression": 0,
+                    "repstime": 95
+                }
+            ]
+        },
+        {
+            "currDate": 1699534708416,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 20
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 60
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 10
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 10
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 30
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 30
+                }
+            ]
+        },
+        {
+            "currDate": 1699963352769,
+            "arr": [
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 6
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 4
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 60
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 10
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 10
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 20
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 18
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                }
+            ]
+        },
+        {
+            "currDate": 1699964116074,
+            "arr": [
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 20
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 20
+                },
+                {
+                    "type": "stretch",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1701180657127,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 12
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 20
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 20
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 20
+                }
+            ]
+        },
+        {
+            "currDate": 1701345339017,
+            "arr": [
+                {
+                    "type": "plank",
+                    "progression": 0,
+                    "repstime": 75
+                },
+                {
+                    "type": "plank",
+                    "progression": 0,
+                    "repstime": 90
+                },
+                {
+                    "type": "plank",
+                    "progression": 0,
+                    "repstime": 60
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 10
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 10
+                }
+            ]
+        },
+        {
+            "currDate": 1701953243106,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 20
+                },
+                {
+                    "type": "push",
+                    "progression": 6,
+                    "repstime": 14
+                },
+                {
+                    "type": "push",
+                    "progression": 6,
+                    "repstime": 15
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 30
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 30
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 60
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 8
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 8
+                }
+            ]
+        },
+        {
+            "currDate": 1701953243106,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1702132727790,
+            "arr": [
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 6
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 4
+                },
+                {
+                    "type": "plank",
+                    "progression": 0,
+                    "repstime": 90
+                },
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1702132727790,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1702754858255,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1702754858255,
+            "arr": [
+                {
+                    "type": "ice skating",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1702912978407,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 20
+                },
+                {
+                    "type": "push",
+                    "progression": 6,
+                    "repstime": 10
+                },
+                {
+                    "type": "push",
+                    "progression": 6,
+                    "repstime": 10
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 30
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 25
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 60
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 10
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 5
+                }
+            ]
+        },
+        {
+            "currDate": 1702912978407,
+            "arr": [
+                {
+                    "type": "ice skating",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1703014207613,
+            "arr": [
+                {
+                    "type": "ice skating",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1703772122409,
+            "arr": [
+                {
+                    "type": "ice skating",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1703772122409,
+            "arr": [
+                {
+                    "type": "ice skating",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1704980754052,
+            "arr": [
+                {
+                    "type": "ice skating",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1704980754052,
+            "arr": [
+                {
+                    "type": "ice skating",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1704980754052,
+            "arr": [
+                {
+                    "type": "ice skating",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1704980754052,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 20
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 30
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 30
+                }
+            ]
+        },
+        {
+            "currDate": 1706190394389,
+            "arr": [
+                {
+                    "type": "ice skating",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1706190394389,
+            "arr": [
+                {
+                    "type": "ice skating",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1706190394389,
+            "arr": [
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 4
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 4
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "plank",
+                    "progression": 0,
+                    "repstime": 90
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 5
+                }
+            ]
+        },
+        {
+            "currDate": 1706630143409,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 20
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 20
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 30
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 30
+                }
+            ]
+        },
+        {
+            "currDate": 1706630175340,
+            "arr": [
+                {
+                    "type": "ice skating",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1707242552704,
+            "arr": [
+                {
+                    "type": "ice skating",
+                    "progression": 0,
+                    "repstime": 0
+                },
+                {
+                    "type": "ice skating",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1707242589300,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 20
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "push",
+                    "progression": 6,
+                    "repstime": 10
+                },
+                {
+                    "type": "core",
+                    "progression": 9,
+                    "repstime": 10
+                },
+                {
+                    "type": "core",
+                    "progression": 9,
+                    "repstime": 10
+                },
+                {
+                    "type": "squat",
+                    "progression": 5,
+                    "repstime": 30
+                },
+                {
+                    "type": "squat",
+                    "progression": 5,
+                    "repstime": 30
+                }
+            ]
+        },
+        {
+            "currDate": 1707857773236,
+            "arr": [
+                {
+                    "type": "ice skating",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1707908822152,
+            "arr": [
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 3
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "bridge",
+                    "progression": 4,
+                    "repstime": 10
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 30
+                },
+                {
+                    "type": "plank",
+                    "progression": 0,
+                    "repstime": 60
+                }
+            ]
+        },
+        {
+            "currDate": 1708024232220,
+            "arr": [
+                {
+                    "type": "ice skating",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1708262318052,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1708462991401,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1708961430185,
+            "arr": [
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 20
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 20
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 22
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "core",
+                    "progression": 8,
+                    "repstime": 10
+                },
+                {
+                    "type": "core",
+                    "progression": 8,
+                    "repstime": 10
+                }
+            ]
+        },
+        {
+            "currDate": 1709212180844,
+            "arr": [
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 30
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 10
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 7
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 4
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 4
+                }
+            ]
+        },
+        {
+            "currDate": 1709560776867,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1710254701819,
+            "arr": [
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 40
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 40
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 10
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 10
+                }
+            ]
+        },
+        {
+            "currDate": 1710855384772,
+            "arr": [
+                {
+                    "type": "core",
+                    "progression": 7,
+                    "repstime": 10
+                },
+                {
+                    "type": "core",
+                    "progression": 7,
+                    "repstime": 11
+                },
+                {
+                    "type": "squat",
+                    "progression": 6,
+                    "repstime": 10
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 12
+                }
+            ]
+        },
+        {
+            "currDate": 1710964935024,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1711641507467,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1711641507467,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1711893942118,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1712233792296,
+            "arr": [
+                {
+                    "type": "core",
+                    "progression": 7,
+                    "repstime": 15
+                },
+                {
+                    "type": "core",
+                    "progression": 7,
+                    "repstime": 15
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 30
+                },
+                {
+                    "type": "squat",
+                    "progression": 6,
+                    "repstime": 10
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 25
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 19
+                }
+            ]
+        },
+        {
+            "currDate": 1712663807578,
+            "arr": [
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 60
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 60
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 10
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 10
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 6
+                },
+                {
+                    "type": "bridge",
+                    "progression": 5,
+                    "repstime": 5
+                }
+            ]
+        },
+        {
+            "currDate": 1713886086660,
+            "arr": [
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 7
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 4
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 10
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 10
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 25
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 25
+                }
+            ]
+        },
+        {
+            "currDate": 1714036752451,
+            "arr": [
+                {
+                    "type": "core",
+                    "progression": 7,
+                    "repstime": 20
+                },
+                {
+                    "type": "core",
+                    "progression": 7,
+                    "repstime": 14
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 31
+                },
+                {
+                    "type": "squat",
+                    "progression": 5,
+                    "repstime": 29
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 23
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 13
+                }
+            ]
+        },
+        {
+            "currDate": 1714491421044,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1716658089397,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1717515369339,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1717515369339,
+            "arr": [
+                {
+                    "type": "core",
+                    "progression": 7,
+                    "repstime": 15
+                },
+                {
+                    "type": "core",
+                    "progression": 7,
+                    "repstime": 8
+                },
+                {
+                    "type": "push",
+                    "progression": 4,
+                    "repstime": 20
+                },
+                {
+                    "type": "push",
+                    "progression": 4,
+                    "repstime": 20
+                }
+            ]
+        },
+        {
+            "currDate": 1718113815191,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1718210822497,
+            "arr": [
+                {
+                    "type": "bridge",
+                    "progression": 4,
+                    "repstime": 30
+                },
+                {
+                    "type": "bridge",
+                    "progression": 4,
+                    "repstime": 30
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 30
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 30
+                }
+            ]
+        },
+        {
+            "currDate": 1718537869330,
+            "arr": [
+                {
+                    "type": "core",
+                    "progression": 7,
+                    "repstime": 15
+                },
+                {
+                    "type": "core",
+                    "progression": 7,
+                    "repstime": 15
+                },
+                {
+                    "type": "core",
+                    "progression": 7,
+                    "repstime": 17
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 15
+                }
+            ]
+        },
+        {
+            "currDate": 1718807981992,
+            "arr": [
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 3
+                },
+                {
+                    "type": "squat",
+                    "progression": 4,
+                    "repstime": 30
+                }
+            ]
+        },
+        {
+            "currDate": 1719154794430,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1719156842348,
+            "arr": [
+                {
+                    "type": "basketball",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1719248156485,
+            "arr": [
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 5
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 5
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 30
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 30
+                }
+            ]
+        },
+        {
+            "currDate": 1719510099990,
+            "arr": [
+                {
+                    "type": "core",
+                    "progression": 7,
+                    "repstime": 20
+                },
+                {
+                    "type": "core",
+                    "progression": 8,
+                    "repstime": 10
+                },
+                {
+                    "type": "core",
+                    "progression": 8,
+                    "repstime": 7
+                },
+                {
+                    "type": "core",
+                    "progression": 5,
+                    "repstime": 25
+                },
+                {
+                    "type": "core",
+                    "progression": 5,
+                    "repstime": 10
+                }
+            ]
+        },
+        {
+            "currDate": 1719936514060,
+            "arr": [
+                {
+                    "type": "core",
+                    "progression": 8,
+                    "repstime": 15
+                },
+                {
+                    "type": "core",
+                    "progression": 8,
+                    "repstime": 10
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 20
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 16
+                }
+            ]
+        },
+        {
+            "currDate": 1720206509810,
+            "arr": [
+                {
+                    "type": "swimming",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1720285175299,
+            "arr": [
+                {
+                    "type": "climbing",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1720452086127,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 4,
+                    "repstime": 30
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 20
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 7
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 5
+                }
+            ]
+        },
+        {
+            "currDate": 1720873567024,
+            "arr": [
+                {
+                    "type": "swimming",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1721058794111,
+            "arr": [
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 10
+                },
+                {
+                    "type": "bridge",
+                    "progression": 6,
+                    "repstime": 10
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 30
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 20
+                }
+            ]
+        },
+        {
+            "currDate": 1721058794111,
+            "arr": [
+                {
+                    "type": "basketball",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1721475461909,
+            "arr": [
+                {
+                    "type": "swimming",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1721475461909,
+            "arr": [
+                {
+                    "type": "core",
+                    "progression": 8,
+                    "repstime": 16
+                },
+                {
+                    "type": "core",
+                    "progression": 8,
+                    "repstime": 12
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 24
+                },
+                {
+                    "type": "push",
+                    "progression": 5,
+                    "repstime": 13
+                }
+            ]
+        },
+        {
+            "currDate": 1721842291815,
+            "arr": [
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 7
+                },
+                {
+                    "type": "pull",
+                    "progression": 5,
+                    "repstime": 5
+                },
+                {
+                    "type": "squat",
+                    "progression": 5,
+                    "repstime": 20
+                }
+            ]
+        },
+        {
+            "currDate": 1722012906633,
+            "arr": [
+                {
+                    "type": "swimming",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1722273980240,
+            "arr": [
+                {
+                    "type": "bridge",
+                    "progression": 1,
+                    "repstime": 60
+                },
+                {
+                    "type": "bridge",
+                    "progression": 1,
+                    "repstime": 60
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 30
+                },
+                {
+                    "type": "twist",
+                    "progression": 1,
+                    "repstime": 30
+                }
+            ]
+        },
+        {
+            "currDate": 1722354443757,
+            "arr": [
+                {
+                    "type": "push",
+                    "progression": 8,
+                    "repstime": 21
+                },
+                {
+                    "type": "push",
+                    "progression": 8,
+                    "repstime": 15
+                },
+                {
+                    "type": "push",
+                    "progression": 4,
+                    "repstime": 20
+                },
+                {
+                    "type": "push",
+                    "progression": 4,
+                    "repstime": 17
+                }
+            ]
+        },
+        {
+            "currDate": 1722609486098,
+            "arr": [
+                {
+                    "type": "swimming",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1722609486098,
+            "arr": [
+                {
+                    "type": "squat",
+                    "progression": 5,
+                    "repstime": 30
+                },
+                {
+                    "type": "squat",
+                    "progression": 5,
+                    "repstime": 30
+                },
+                {
+                    "type": "squat",
+                    "progression": 5,
+                    "repstime": 7
+                },
+                {
+                    "type": "squat",
+                    "progression": 5,
+                    "repstime": 5
+                }
+            ]
+        },
+        {
+            "currDate": 1723133048100,
+            "arr": [
+                {
+                    "type": "basketball",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1723213835005,
+            "arr": [
+                {
+                    "type": "bridge",
+                    "progression": 2,
+                    "repstime": 20
+                },
+                {
+                    "type": "bridge",
+                    "progression": 2,
+                    "repstime": 20
+                }
+            ]
+        },
+        {
+            "currDate": 1723831405562,
+            "arr": [
+                {
+                    "type": "basketball",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
+        },
+        {
+            "currDate": 1723831405562,
+            "arr": [
+                {
+                    "type": "swimming",
+                    "progression": 0,
+                    "repstime": 0
+                }
+            ]
         }
     ]
 }

@@ -37,7 +37,7 @@ body {
 }
 
 .ice_skating {
-  background-color: #1793c4;
+  background-color: rgb(123, 176, 245);
 }
 
 .climbing {
@@ -46,4 +46,8 @@ body {
 
 .basketball {
   background-color: #df462b;
+}
+
+.swimming {
+  background-color: rgb(0, 60, 255);
 }
